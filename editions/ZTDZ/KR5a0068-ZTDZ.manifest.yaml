@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0068/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0068/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上安鎮九壘龍神妙經
+  date: '2015-08-28 23:35:35.458376'
+  source:
+    repository: kanripo
+    path: KR5a0068
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0068_000-ZTDZ.yaml, hash: 'sha256:8b8eb9b1e7a499361493af1e869b55a67bca4a14e1beef82862e50b05f723669'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0068_000-ZTDZ.markers.yaml, hash: 'sha256:714836cdeebc2008b00771a5d2aba747a961ea2517f2aeb2085b77d529823c9f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0068_SJB_000-020034a
+    span:
+    - body
+    - 0
+    - 476
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:cc204dcd77e541609d4bd8c25f58b1b9a2bdc6808320c2f4a54b8041209be2bb
